@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -35,9 +34,9 @@ import ericsson from "./company/ericsson.png";
 import mist from "./company/mist.png";
 import mes from "./company/mes.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import nexDerm from "./NexDerm.png";
+import tennisGame from "./tennisGame.png";
 
 export {
   logo,
@@ -50,7 +49,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -65,9 +63,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
-  tripguide,
   ericsson,
   mist, 
   mes, 
@@ -77,4 +73,6 @@ export {
   sql,
   tensorflow,
   bash,
+  nexDerm, 
+  tennisGame
 };
