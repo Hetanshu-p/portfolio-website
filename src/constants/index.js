@@ -9,20 +9,19 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   mes,
   ericsson,
-  mist,
-  carrent,
+  mist, 
   jobit,
-  tripguide,
   python,
   java,
   c,
   sql,
   tensorflow,
   bash,
+  nexDerm, 
+  tennisGame
 } from "../assets";
 
 export const navLinks = [
@@ -185,58 +184,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NexDerm - Dermatology Diagnosis AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-powered dermatology support platform that lets users upload or capture skin images for instant analysis, offering early condition detection and connecting them with nearby dermatologists for timely care.",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TensorFlow",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nexDerm,
+    source_code_link: "https://github.com/NexSpend/NexDerm",
   },
   {
-    name: "Job IT",
+    name: "HOMA - Homework Math Assistant",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Interactive math assistant that converts spoken word problems into text, automatically calculates solutions, and currently supports revenue optimization and interest problems, with more capabilities coming as the system evolves.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "OpenCV",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/OmPatel03/HOMA",
   },
   {
-    name: "Trip Guide",
+    name: "Tennis Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Browser-based tennis game built with JavaScript, created as a first introduction to the language during the early pandemic, showcasing interactive gameplay and foundational programming skills.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -244,8 +239,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tennisGame,
+    source_code_link: "https://github.com/Hetanshu-p/Tennis-game-in-Javascript",
   },
 ];
 
